@@ -24,7 +24,7 @@ React
 
 ## Installation
 ```sh
-git clone https://github.com/matayus54/Quotes
+git clone https://github.com/matayus54/Quote_Machine
 cd my-first-app/
 npm start
 ```
