@@ -1,24 +1,38 @@
-import logo from './logo.svg';
+/*import logo from './logo.svg';  */
 import './App.css';
+/* 
+import Saludar from './Components/Saludo.js'
+import Cards from './Components/P1Textos.js'  
+import './Components/css/Estilos.css'
+import './Components/css/neon.css'
+*/
+import FormatQuotes from './Components/js/FortmatQuotes.js'
 
-function App() {
+/* function >Tres() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='containerFilas'>
+    
+    <Cards color='green' titulo='hobbies' primer='s' segundo='s' tercero='s'/>
+    <Cards color='celeste' titulo='en mi tiempo libre me gusta' primer='s' segundo='s' tercero='s'/>
+    <Cards color='yellow' titulo='comidas favoritas' primer='s' segundo='s' tercero='s'/>
     </div>
+  );
+} */
+
+const App=()=>{
+
+  return (
+    <>
+      <FormatQuotes/>
+
+
+
+      
+      {/* <div className="containerFilas">
+        desarrollado por M. Arturo Matheus Tapia
+      </div>  */}
+
+    </>
   );
 }
 
